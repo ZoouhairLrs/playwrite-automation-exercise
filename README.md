@@ -22,7 +22,9 @@ git clone [your-repo-url]
 cd [your-repo-name]
 
 # Install dependencies
-npm install
+npm init -y
+npm install -D @playwright/test typescript
+npx tsc --init
 npx playwright install
 
 Project Structure:
