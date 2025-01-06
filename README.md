@@ -18,36 +18,48 @@ npm
 
 Setup :
 # Clone repository
+```
 git clone [your-repo-url]
 cd [your-repo-name]
+```
 
 # Install dependencies
+```
 npm init -y
 npm install -D @playwright/test typescript
 npx tsc --init
 npx playwright install
+```
 
-Project Structure:
-├── test-data/
-│   └── sample.txt
-├── tests/
-│   └── automation.spec.ts
-├── playwright.config.ts
-├── package.json
+Project Structure:</br>
+├── test-data/</br>
+│   └── sample.txt</br>
+├── tests/</br>
+│   └── automation.spec.ts</br>
+├── playwright.config.ts</br>
+├── package.json</br>
 └── README.md
 
 Running Tests:
 # Run all tests
+```
 npx playwright test
+```
 
 # Run specific test file
+```
 npx playwright test automation.spec.ts
+```
 
 # Run tests with UI
+```
 npx playwright test --headed
+```
 
 # Run tests with debug mode
+```
 npx playwright test --debug
+```
 
 
 Test Cases:
@@ -76,9 +88,11 @@ Verifies success message
 
 Implementation Details:
 # Key Functions
-<function generateUniqueEmail() {
+```
+function generateUniqueEmail() {
   return `user_${Date.now()}@example.com`;
-}>
+}
+```
 
 # Test Architecture
 Uses Page Object Model
@@ -87,7 +101,7 @@ Handles dynamic data
 Includes proper error handling
 
 # Configuration
-playwright.config.ts includes:
+playwright.config.ts includes
 
 # Headless/headed mode
 Video recording
@@ -127,4 +141,4 @@ Submit pull request
 
 License
 @Zouahir_Laaroussi
-# github: ZoouhairLrs 
+# [ZoouhairLrs ](https://github.com/ZoouhairLrs)
